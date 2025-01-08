@@ -6,3 +6,9 @@ __pycache__/
 venv/
 .idea/
 .vscode/
+
+# Playwright
+**/node_modules/
+**/playwright/driver/
+**/site-packages/playwright/
+
