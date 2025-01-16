@@ -17,9 +17,17 @@ from browser_use import Agent
 
 llm = ChatOpenAI(model='gpt-4o')
 agent = Agent(
-	task='''Go to linkedin.com, log in using email: goose5620@topvu.net and password: damuswatest.
-	After logging in, search for "Julian Saks", click on the first profile that appears,
-	and return detailed information from their LinkedIn bio and profile.''',
+	task='''Go to linkedin.com, log in using email: skipper72585@mailshan.com and password: damuswest5.
+	After logging in, search for "Gabriele Ansaldo", click on the first profile that appears.
+	Gather and return:
+	- Detailed information from their LinkedIn bio and profile
+	- A comprehensive list of all job experiences, including:
+		- Company name
+		- Job title
+		- Employment duration
+		- Job description/responsibilities if available
+		- Location if available
+	Make sure to scroll through the entire profile to capture all work history entries.''',
 	llm=llm,
 )
 
